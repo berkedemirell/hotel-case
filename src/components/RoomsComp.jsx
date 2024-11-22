@@ -58,7 +58,7 @@ const RoomsComp = () => {
             Odalarımız ve Değerlendirmeler
           </p>
         </div>
-        <div className="grid grid-cols-3 xss:grid-cols-1 gap-6 p-24 pt-10 sms:grid-cols-2">
+        <div className="grid grid-cols-3 xss:grid-cols-1 gap-6 mob:p-12 mob:gap-4 p-24 pt-10  sms:grid-cols-2">
           {rooms.map((room) => {
             return (
 
@@ -70,7 +70,7 @@ const RoomsComp = () => {
                   className="hover:scale-105 h-roomImage w-roomImage llg:w-roomImage2 llg:h-roomImage2 transition-all duration-1000 mmd:w-roomImage3 mmd:h-roomImage3 xss:w-roomImage2 xss:h-roomImage2"
                 />
               </div>
-              <div className="bg-slate-50 p-6 flex flex-row items-start justify-between">
+              <div className="bg-slate-50 p-6 mob:p-4 flex flex-row items-start justify-between">
                 <div>
                   <div>
                     <p className="text-2xl mmd:text-xl font-bold sms:text-lg">{room.type}</p>

@@ -19,8 +19,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "home-image" : "url('./src/images/HomePageImg.jpg')",
-        "home-image2" : "url('./src/images/banner1.jpg')",
+        "home-image" : "url('/src/images/HomePageImg.jpg')",
+        "home-image2" : "url('/src/images/banner1.jpg')",
       },
       colors: {
         buttonColor: '#B56952',
@@ -64,6 +64,7 @@ export default {
         'xss' : {'max' : '620px'},
         'xxxs' : {'max' : '550px'},
         'ss' : {'max' : '520px'},
+        'mob' : {'max' : '490px'}
       }
 
     },

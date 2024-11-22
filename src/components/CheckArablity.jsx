@@ -21,7 +21,7 @@ const CheckArablity = () => {
   };
 
   return (
-    <div className="bg-slate-100 h-auto w-1/2 absolute xs:relative xs:bottom-0 xs:block mmd:w-3/4 xs:mt-4 xxxs:w-fit -bottom-12 rounded-md p-4 left-24">
+    <div className="bg-slate-100 h-auto w-1/2 mob:w-full absolute xs:relative xs:bottom-0 xs:block mmd:w-3/4 xs:mt-4 xxxs:w-fit -bottom-12 rounded-md p-4 left-24 mob:left-0">
       <div className="flex flex-row xs:flex-col items-center gap-12 lg:gap-4 xs:items-start items-center justify-center">
         <div className="flex flex-col items-center xs:items-start justify-center gap-2 xs:ml-auto xs:mr-auto">
           <div>

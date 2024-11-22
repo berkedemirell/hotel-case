@@ -13,7 +13,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-gray-800 text-slate-50">
-      <div className="flex flex-row mds:grid mds:grid-cols-2 items-center justify-between gap-12 p-24 border-b-2 border-buttonColor">
+      <div className="flex flex-row mds:grid mds:grid-cols-2 mob:grid-cols-1 items-center justify-between gap-12 p-24 border-b-2 border-buttonColor">
         <div className="flex flex-col items-start justify-center gap-4 w-1/4 mds:w-fit">
           <div className="">
             <img src={logo} alt="" className="w-32" />
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/4 mds:w-fit">
+        <div className="w-1/4 mds:w-fit mob:w-full">
           <div className="flex flex-col gap-6">
             <div><p className="text-2xl xxxs:text-xl">Links</p></div>
             <div className="flex flex-col items-start justify-start gap-2 xxxs:text-sm">
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/4 mds:w-fit">
+        <div className="w-1/4 mds:w-fit mob:w-full">
           <div className="flex flex-col gap-6">
             <div><p className="text-2xl xxxs:text-xl">Useful Links</p></div>
             <div className="flex flex-col items-start justify-start gap-2 xxxs:text-sm">
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="pl-24 pr-24 p-4 flex items-center justify-end">
+      <div className="pl-24 pr-24 p-4 flex items-center justify-end mob:justify-center">
         <div className="flex flex-row gap-4">
           <Link className="text-2xl"><FaFacebook/></Link>
           <Link className="text-2xl"><FaTwitter/></Link>
