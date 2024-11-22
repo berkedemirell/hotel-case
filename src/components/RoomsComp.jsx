@@ -58,7 +58,7 @@ const RoomsComp = () => {
             Odalarımız ve Değerlendirmeler
           </p>
         </div>
-        <div className="grid grid-cols-3 xss:grid-cols-1 gap-6 mob:p-12 mob:gap-4 p-24 pt-10  sms:grid-cols-2">
+        <div className="grid grid-cols-3 xss:grid-cols-1 gap-6 mob:p-12 mob:p-2 mob:gap-4 p-24 pt-10  sms:grid-cols-2">
           {rooms.map((room) => {
             return (
 

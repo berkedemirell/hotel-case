@@ -60,7 +60,7 @@ const ServicesComp = () => {
             Our Services on the Global Market for Our Client&lsquo;s Reservation
           </p>
         </div>
-        <div className="flex items-center justify-start mt-4 overflow-hidden llg:w-cardOuter2 mmd:w-cardOuter3 mds:w-cardOuter4 xs:w-cardOuter5 relative w-1500">
+        <div className="flex items-center justify-start mt-4 overflow-hidden llg:w-cardOuter2 mmd:w-cardOuter3 mds:w-cardOuter4 xs:w-cardOuter5 mob:w-cardOuter6 relative w-1500">
           <div className="flex flex-row items-start justify-start gap-8">
             <div>
               <div>
@@ -71,50 +71,50 @@ const ServicesComp = () => {
               </div>
             </div>
             {SERVICES.map((serv) => {
-              return ( 
+              return (
                 <div
-                key={serv.id}
-              className={`border transition-all duration-500 border-slate-100 rounded-md w-1600 llg:w-cardImage2 mmd:w-cardImage3 xs:w-cardImage4 mds:w-cardImage2 p-4 pl-6 pr-6 bg-cardColor flex flex-col gap-4 h-1/3 shadow-md ${
-                Number(activeElement?.id) === Number(serv?.id)
-                  ? "bg-slate-50 shadow-lg"
-                  : "shadow-md"
-              }`}
-              id={serv?.id}
-              onMouseEnter={getElement}
-              onMouseLeave={deleteElement}
-            >
-              <div className="">
-                <button
-                  className={` p-4 rounded-full transition-all duration-600 ${
-                    Number(activeElement?.id) === Number(serv?.id) ? "bg-cardColor" : "bg-slate-50"
+                  key={serv.id}
+                  className={`border transition-all duration-500 border-slate-100 rounded-md w-1600 llg:w-cardImage2 mmd:w-cardImage3 xs:w-cardImage4 mds:w-cardImage2 mob:w-cardImage2 p-4 pl-6 pr-6 bg-cardColor flex flex-col gap-4 h-1/3 shadow-md ${
+                    Number(activeElement?.id) === Number(serv?.id)
+                      ? "bg-slate-50 shadow-lg"
+                      : "shadow-md"
                   }`}
+                  id={serv?.id}
+                  onMouseEnter={getElement}
+                  onMouseLeave={deleteElement}
                 >
-                  <span className="text-5xl text-buttonColor xss:text-4xl">
-                    <FaHouseChimneyMedical />
-                  </span>
-                </button>
-              </div>
-              <div className="">
-                <p className="text-2xl font-bold xss:text-xl">
-                  {serv.header}
-                </p>
-              </div>
-              <div>
-                <p className="text-sm tracking-wider leading-6 text-textColor">
-                  {serv.content}
-                </p>
-              </div>
-              <div className="-mt-2">
-                <button className="text-buttonColor underline text-sm">
-                  Get Service
-                </button>
-              </div>
-            </div>
-
-              )
+                  <div className="">
+                    <button
+                      className={` p-4 rounded-full transition-all duration-600 ${
+                        Number(activeElement?.id) === Number(serv?.id)
+                          ? "bg-cardColor"
+                          : "bg-slate-50"
+                      }`}
+                    >
+                      <span className="text-5xl text-buttonColor xss:text-4xl">
+                        <FaHouseChimneyMedical />
+                      </span>
+                    </button>
+                  </div>
+                  <div className="">
+                    <p className="text-2xl font-bold xss:text-xl">
+                      {serv.header}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-sm tracking-wider leading-6 text-textColor">
+                      {serv.content}
+                    </p>
+                  </div>
+                  <div className="-mt-2">
+                    <button className="text-buttonColor underline text-sm">
+                      Get Service
+                    </button>
+                  </div>
+                </div>
+              );
             })}
-        
-            </div>
+          </div>
         </div>
       </div>
     </div>

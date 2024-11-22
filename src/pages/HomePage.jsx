@@ -7,8 +7,8 @@ import Specialty from "../components/Specialty";
 
 const HomePage = () => {
   return (
-    <div className="">
-      <div className="bg-home-image2 bg-no-repeat bg-center bg-cover h-screen relative">
+    <div className="overflow-x-hidden">
+      <div className="bg-home-image2 bg-no-repeat  bg-center bg-cover h-screen relative">
         <div className=" text-slate-50 w-1/3 mmd:w-1/2 h-auto translate-x-4 translate-y-48 xs:translate-y-12 xs:w-2/3 ss:w-4/5 mds:ml-auto mds:mr-auto mds:translate-x-0 llg:translate-x-8 mmd:translate-x-24 llg:translate-y-32 p-6 rounded-md bg-buttonColor opacity-90">
           <p className="text-5xl llg:text-4xl text-center font-bold ss:text-3xl">
             Bizimle Bodrum&lsquo;da İnanılmaz Bir Tatil Yaşayın

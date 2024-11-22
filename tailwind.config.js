@@ -38,6 +38,7 @@ export default {
         'cardOuter3' : '52rem',
         'cardOuter4' : '45rem',
         'cardOuter5' : '30rem',
+        'cardOuter6' : '25rem',
         'roomImage' : '26.5rem',
         'roomImage2' : '20rem',
         'roomImage3' : '14rem',

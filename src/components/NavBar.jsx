@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <div className="flex flex-col">
         <div>
           <TopBar />
