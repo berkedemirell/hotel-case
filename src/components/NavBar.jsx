@@ -24,7 +24,7 @@ const NavBar = () => {
             <div className="hidden mds:block relative">
               <button className="text-3xl rotate-90" onClick={handleDropDown}>|||</button>
               {isDropped && (
-                <div className="flex flex-col gap-4 absolute z-10 right-0 bg-slate-950 text-lg rounded-md p-4 text-slate-50">
+                <div className="flex flex-col gap-4 absolute z-10 -right-12 bg-slate-950 text-lg rounded-md w-screen p-4 text-slate-50">
                   <div className="border-b border-slate-50">
                     <Link>Ana Sayfa</Link>
                   </div>

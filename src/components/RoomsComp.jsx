@@ -41,7 +41,7 @@ const RoomsComp = () => {
       thumbnail: img5
     },
     {
-      id: 2,
+      id: 6,
       type: 'Ultra Lüks Oda',
       price: 270,
       thumbnail: img6

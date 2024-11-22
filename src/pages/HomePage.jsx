@@ -4,6 +4,7 @@ import QuestionsComp from "../components/QuestionsComp";
 import RoomsComp from "../components/RoomsComp";
 import ServicesComp from "../components/ServicesComp";
 import Specialty from "../components/Specialty";
+import StickyBottomBar from "../components/StickyBottomBar";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,7 @@ const HomePage = () => {
             </button>
           </div>
         </div>
+        <StickyBottomBar/>
         <div className="xs:hidden">
           <CheckArablity />
         </div>
