@@ -67,7 +67,7 @@ const RoomsComp = () => {
                 <img
                   src={room.thumbnail}
                   alt=""
-                  className="hover:scale-105 h-roomImage w-roomImage llg:w-roomImage2 llg:h-roomImage2 transition-all duration-1000 mmd:w-roomImage3 mmd:h-roomImage3 xss:w-roomImage2 xss:h-roomImage2"
+                  className="hover:scale-110 h-roomImage w-roomImage llg:w-roomImage2 llg:h-roomImage2 transition-all duration-1000 mmd:w-roomImage3 mmd:h-roomImage3 xss:w-roomImage2 xss:h-roomImage2"
                 />
               </div>
               <div className="bg-slate-50 p-6 mob:p-4 flex flex-row items-start justify-between">

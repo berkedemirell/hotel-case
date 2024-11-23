@@ -1,6 +1,7 @@
 import aboutImage from "../images/room.jpg";
 import { FaHouseChimney } from "react-icons/fa6";
 import { FaWifi } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const AboutComp = () => {
   return (
@@ -61,9 +62,9 @@ const AboutComp = () => {
             </div>
           </div>
           <div className="mt-4">
-            <button className="bg-buttonColor text-slate-50 p-3 pl-8 pr-8 rounded-md ss:text-sm">
+            <Link to='/about' className="bg-buttonColor text-slate-50 p-3 pl-8 pr-8 rounded-md ss:text-sm">
               Daha Fazlası
-            </button>
+            </Link>
           </div>
         </div>
       </div>

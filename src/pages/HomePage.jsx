@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AboutComp from "../components/AboutComp";
 import CheckArablity from "../components/CheckArablity";
 import QuestionsComp from "../components/QuestionsComp";
@@ -22,9 +23,9 @@ const HomePage = () => {
             gerçekleştirebilmeyi amaçlamaktadır.
           </p>
           <div className="flex justify-end mt-2">
-            <button className="bg-slate-50 text-slate-950 p-2 ss:p-1 ss:text-sm rounded-md font-bold hover:bg-slate-950 hover:text-slate-50">
+            <Link to='/contact' className="bg-slate-50 text-slate-950 p-2 ss:p-1 ss:text-sm rounded-md font-bold hover:bg-slate-950 hover:text-slate-50">
               İletişime Geç &rarr;
-            </button>
+            </Link>
           </div>
         </div>
         <StickyBottomBar/>

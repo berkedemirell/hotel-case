@@ -15,6 +15,8 @@ export default {
     "./src/components/StickyBottomBar.jsx",
     "./src/components/Specialty.jsx",
     "./src/pages/HomePage.jsx",
+    "./src/pages/ReservationPage.jsx",
+    "./src/pages/ContactPage.jsx",
     "./src/pages/AboutPage.jsx",
   ],
   theme: {

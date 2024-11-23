@@ -72,13 +72,8 @@ const ServicesComp = () => {
     }
   }
   const previousSlide = () => {
-    console.log('card offsetWidth',card.offsetWidth)
     const neededLength = Number(sampleDiv.offsetWidth) / 5
-    console.log(neededLength)
-    console.log('element offsetwidth',element.offsetWidth)
-    console.log('element scrollLeft',element.scrollLeft)
-    console.log('sample Div',sampleDiv.offsetWidth)
-    if(true) {
+    if(element) {
       element.scrollTo(-Number(neededLength+7),0)
     } else {
       element.scrollTo(0,0)

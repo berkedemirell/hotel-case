@@ -18,18 +18,18 @@ const NavBar = () => {
         </div>
         <div className="bg-slate-50">
           <div className="flex flex-row justify-between items-center p-6 pl-28 pr-28 mmd:pl-12 mmd:pr-12">
-            <div>
+            <Link to='/'>
               <img src={Logo} alt="" className="w-36" />
-            </div>
+            </Link>
             <div className="hidden mds:block relative">
               <button className="text-3xl rotate-90" onClick={handleDropDown}>|||</button>
               {isDropped && (
                 <div className="flex flex-col gap-4 absolute z-10 -right-12 bg-slate-950 text-lg rounded-md w-screen p-4 text-slate-50">
                   <div className="border-b border-slate-50">
-                    <Link>Ana Sayfa</Link>
+                    <Link to='/'>Ana Sayfa</Link>
                   </div>
                   <div className="border-b border-slate-50">
-                    <Link>Hakkımızda</Link>
+                    <Link to='/about'>Hakkımızda</Link>
                   </div>
                   <div className="border-b border-slate-50">
                     <Link>Sayfalar</Link>
@@ -44,17 +44,17 @@ const NavBar = () => {
                     <Link>Odalar</Link>
                   </div>
                   <div className="border-b border-slate-50">
-                    <Link>İletişim</Link>
+                    <Link to='/contact'>İletişim</Link>
                   </div>
                 </div>
               )}
             </div>
             <div className="flex flex-row gap-10 mmd:gap-6 mds:hidden">
               <div>
-                <Link>Ana Sayfa</Link>
+                <Link to='/' className="">Ana Sayfa</Link>
               </div>
               <div>
-                <Link>Hakkımızda</Link>
+                <Link to='/about'>Hakkımızda</Link>
               </div>
               <div>
                 <Link>Sayfalar</Link>
@@ -69,13 +69,13 @@ const NavBar = () => {
                 <Link>Odalar</Link>
               </div>
               <div>
-                <Link>İletişim</Link>
+                <Link to='/contact'>İletişim</Link>
               </div>
             </div>
             <div className="mds:hidden">
-              <button className="text-lg bg-buttonColor p-4 text-slate-50 rounded-md font-bold">
+              <Link to='/reservation' className="text-lg bg-buttonColor p-4 text-slate-50 rounded-md font-bold">
                 Rezervasyon
-              </button>
+              </Link>
             </div>
           </div>
         </div>

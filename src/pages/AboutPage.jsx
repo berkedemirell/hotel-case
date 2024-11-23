@@ -2,7 +2,7 @@
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="h-screen">
         <div>
             About Page
         </div>
@@ -10,4 +10,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default AboutPage    

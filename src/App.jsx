@@ -5,6 +5,9 @@ import './App.css'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
+import ReservationPage from './pages/ReservationPage'
+import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
 
@@ -27,6 +30,18 @@ function App() {
           path: "/",
           element: <HomePage/>
         },
+        {
+          path:"/reservation",
+          element: <ReservationPage/>
+        },
+        {
+          path: '/about',
+          element: <AboutPage/>
+        },
+        {
+          path: '/contact',
+          element: <ContactPage/>
+        }
       ]
     }
   ])
