@@ -63,7 +63,7 @@ const QuestionsComp = () => {
               <button className="border border-red-800 rounded-md p-2 pr-4 pl-4 flex flex-row gap-2 items-center justify-between" id={c.id} key={c.id} onClick={handleAccordion}>
                 <div className="" id={c.id}>
                   <div className="flex flex-row" id={c.id}>
-                    <p className={`text-xl mmd:text-lg p-1 mds:text-sm text-start ${c.isOpened ? 'underline' : ''}`} id={c.id}>{c.question}</p>
+                    <p className={`text-xl mmd:text-lg p-1 mds:p-0 mds:text-sm text-start ${c.isOpened ? 'underline' : ''}`} id={c.id}>{c.question}</p>
                   </div>
                   {c.isOpened && (
                     <div id={c.id} className="flex items-start justify-start mds:text-xs">
